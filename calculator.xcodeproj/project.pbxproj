@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E26AFC901B13621E007565C7 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AFC8F1B13621E007565C7 /* CalculatorBrain.swift */; };
 		E2B603651B12EBBB00858056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B603641B12EBBB00858056 /* AppDelegate.swift */; };
 		E2B603671B12EBBB00858056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B603661B12EBBB00858056 /* ViewController.swift */; };
 		E2B6036A1B12EBBB00858056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B603681B12EBBB00858056 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E26AFC8F1B13621E007565C7 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		E2B6035F1B12EBBB00858056 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B603631B12EBBB00858056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2B603641B12EBBB00858056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				E2B603661B12EBBB00858056 /* ViewController.swift */,
 				E2B603681B12EBBB00858056 /* Main.storyboard */,
+				E26AFC8F1B13621E007565C7 /* CalculatorBrain.swift */,
 				E2B603621B12EBBB00858056 /* Supporting Files */,
 			);
 			path = calculator;
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26AFC901B13621E007565C7 /* CalculatorBrain.swift in Sources */,
 				E2B603671B12EBBB00858056 /* ViewController.swift in Sources */,
 				E2B603651B12EBBB00858056 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				E2B603801B12EBBB00858056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2B603811B12EBBB00858056 /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				E2B603831B12EBBB00858056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
